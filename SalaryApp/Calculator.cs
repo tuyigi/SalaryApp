@@ -20,5 +20,12 @@ namespace SalaryApp
             salary=(rate*hour)-((((rate*hour)*5)/100)+(((rate*hour)*3)/100));
             return salary;
         }
+
+        public double OneTimeSalary(double grossSalary)
+        {
+            double salary;
+            salary = grossSalary - ((grossSalary * 30) / 100);
+            return salary;
+        }
     }
 }

@@ -15,12 +15,14 @@ namespace SalaryApp
             cal.employee_position = Console.ReadLine();
             Console.WriteLine("Please enter employee's gender");
             cal.employee_gendeer= Console.ReadLine();
-            Console.WriteLine("Eneter your gross salary to calculate monthly salary");
+            Console.WriteLine("Enter your gross salary to calculate monthly salary");
             double grossSalary;
             grossSalary = Convert.ToDouble(Console.ReadLine());
             
-            Console.WriteLine($"{cal.employee_name} your monthly salary on {cal.employee_position} position  is {cal.MonthlySalary(grossSalary)}");
+            Console.WriteLine($"{cal.employee_name} your monthly salary on position of {cal.employee_position}   is {cal.MonthlySalary(grossSalary)}");
             
+            Console.WriteLine($"{cal.employee_name} your one-time salary on position of {cal.employee_position} is {cal.OneTimeSalary(grossSalary)}");
+                
             Console.WriteLine("Enter your rate ");
             double rate;
             rate = Convert.ToDouble(Console.ReadLine());
@@ -35,6 +37,8 @@ namespace SalaryApp
             {
                 Console.WriteLine(" Your hourly salary is 0");
             }
+            
+           
             
             
         }
