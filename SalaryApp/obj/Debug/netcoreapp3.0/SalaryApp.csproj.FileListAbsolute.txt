@@ -1,0 +1,11 @@
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/bin/Debug/netcoreapp3.0/SalaryApp
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/bin/Debug/netcoreapp3.0/SalaryApp.deps.json
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/bin/Debug/netcoreapp3.0/SalaryApp.runtimeconfig.json
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/bin/Debug/netcoreapp3.0/SalaryApp.runtimeconfig.dev.json
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/bin/Debug/netcoreapp3.0/SalaryApp.dll
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/bin/Debug/netcoreapp3.0/SalaryApp.pdb
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/obj/Debug/netcoreapp3.0/SalaryApp.csprojAssemblyReference.cache
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/obj/Debug/netcoreapp3.0/SalaryApp.AssemblyInfoInputs.cache
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/obj/Debug/netcoreapp3.0/SalaryApp.AssemblyInfo.cs
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/obj/Debug/netcoreapp3.0/SalaryApp.dll
+/Users/gilberttuyishime/RiderProjects/SalaryApp/SalaryApp/obj/Debug/netcoreapp3.0/SalaryApp.pdb
