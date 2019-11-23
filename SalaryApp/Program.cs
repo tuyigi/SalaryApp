@@ -20,6 +20,23 @@ namespace SalaryApp
             grossSalary = Convert.ToDouble(Console.ReadLine());
             
             Console.WriteLine($"{cal.employee_name} your monthly salary on {cal.employee_position} position  is {cal.MonthlySalary(grossSalary)}");
+            
+            Console.WriteLine("Enter your rate ");
+            double rate;
+            rate = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter hours of work to calculate your salary");
+            double hour;
+            hour = Convert.ToDouble(Console.ReadLine());
+            if (rate != 0 && hour != 0)
+            {
+                Console.WriteLine($"{cal.employee_name} Your hourly salary is {cal.HourlySalary(rate,hour)}");
+            }
+            else
+            {
+                Console.WriteLine(" Your hourly salary is 0");
+            }
+            
+            
         }
     }
 }
