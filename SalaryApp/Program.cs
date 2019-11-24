@@ -20,8 +20,11 @@ namespace SalaryApp
             grossSalary = Convert.ToDouble(Console.ReadLine());
             
             Console.WriteLine($"{cal.employee_name} your monthly salary on position of {cal.employee_position}   is {cal.calculateSalary(grossSalary)}");
+            int salary;
+            Console.WriteLine("Enter gross salary to calculate one time salry");
+            salary = Convert.ToInt32(Console.ReadLine());
             
-            Console.WriteLine($"{cal.employee_name} your one-time salary on position of {cal.employee_position} is {cal.calculateSalary(grossSalary)}");
+            Console.WriteLine($"{cal.employee_name} your one-time salary on position of {cal.employee_position} is {cal.calculateSalary(salary)}");
                 
             Console.WriteLine("Enter your rate ");
             double rate;

@@ -21,9 +21,9 @@ namespace SalaryApp
             return salary;
         }
 
-        public decimal calculateSalary(decimal grossSalary)
+        public int calculateSalary(int grossSalary)
         {
-            decimal salary;
+            int salary;
             salary = grossSalary - ((grossSalary * 30) / 100);
             return salary;
         }
