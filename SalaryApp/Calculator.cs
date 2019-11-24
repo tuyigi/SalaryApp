@@ -7,23 +7,23 @@ namespace SalaryApp
         public string employee_position;
         public string employee_gendeer;
 
-        public double MonthlySalary(double grossSalary)
+        public double calculateSalary(double grossSalary)
         {
             double salary;
             salary = grossSalary - (((grossSalary * 30) / 100) + ((grossSalary * 5) / 100) + ((grossSalary * 3) / 100));
             return salary;
         }
 
-        public double HourlySalary(double rate, double hour)
+        public double calculateSalary(double rate, double hour)
         {
             double salary;
             salary=(rate*hour)-((((rate*hour)*5)/100)+(((rate*hour)*3)/100));
             return salary;
         }
 
-        public double OneTimeSalary(double grossSalary)
+        public decimal calculateSalary(decimal grossSalary)
         {
-            double salary;
+            decimal salary;
             salary = grossSalary - ((grossSalary * 30) / 100);
             return salary;
         }
